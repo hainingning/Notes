@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 
 android {
     namespace "net.micode.notes"
-    compileSdkVersion 33
-    buildToolsVersion "34.0.0"
+    compileSdkVersion 22
+    useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
         applicationId "net.micode.notes"
-        minSdkVersion 14
-        targetSdkVersion 14
+        minSdkVersion 30
+        targetSdkVersion 30
     }
 
     buildTypes {
